@@ -2,10 +2,20 @@
   iaaS paaS saaS (infastructure, platform, software)(control over IT resources)
 - CC deployment models (cloud, hybrid, on-premises)
 - Comparison:
-  ACL IAM
-  VPC
-  AMI EC2
-  EBS EFS S3 RDS
+ Security-          ACL IAM
+ Networking-        VPC
+ Compute-           AMI EC2
+ Storage-database-  EBS EFS S3 RDS
+
 -6 advantages of cc(expense,economics,capacity,speed agility,money on data centres,global deploy)
+
 -AWS service categories(AI,AR,IOT...), core services(.....)
+ Interaction- Management console, CLI, SDK
+
 -AWS Cloud Adoption Framework (AWS CAF) (6 core prespectives-business,technical,governance,platform,security,operations)
+
+
+pricing model- pay as you go
+owns and maintains network connected hardware
+other benifits- high availability, temporary and disposable resources, fault-tolerant databases
+not benifits- multiple procurement cycle, high latency
