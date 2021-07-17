@@ -1,1 +1,6 @@
-
+-Fundamentals of Pricing-Pricing Model(drivers-compute, storage, outbound data transfer)-pay for what are used services-can be custom- free tier(no charge)
+-Total Cost of Ownership (TCO) - service, storage, network, IT labor costs
+ AWS Pricing Calculator
+-AWS Organizations
+-AWS Billing and Cost Management
+-Technical Support
