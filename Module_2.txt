@@ -1,12 +1,16 @@
--Fundamentals of Pricing-Pricing Model(drivers-compute, storage, outbound data transfer)-pay for what are used services-can be custom- free tier(no charge)
+-Fundamentals of Pricing-Pricing Model(drivers-compute, storage, outbound data transfer)-pay for what are used services-can be custom- free tier only certain sevices (no charge-inbound data transfer, data transfer bw services within the same AWS region)
 
 -Total Cost of Ownership (TCO) - service, storage, network, IT labor costs
- AWS Pricing Calculator
+ AWS Pricing Calculator-model solutions before building, create estimate for use cases
 
 -AWS Organizations - free account management service- 4 steps 
  managing interfaces- console, cli, sdks, api
 
--AWS Billing and Cost Management - AWS budgets(alerts,max limit),cost and usage report(info),cost explorer tool(grpahs,compare) - dashboard
+-AWS Billing and Cost Management - AWS budgets(alerts,max limit),cost and usage report(info),cost explorer tool(grpahs,compare, billing activity-3 months) - dashboard
 
 -Technical Support - AWS trusted advisor-infastructure security optimization, Technical account manager(TAM)
  plans-4 basic, developer, *business*, *enterprise*
+
+Reserved Instances available in AURI,NURI,PURI
+Economis of scale-aws grows, cost decreases
+free inbound data transfer for amazon EC2 instances
