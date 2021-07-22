@@ -14,3 +14,9 @@
  Management and governance- AWS management console, config, CloudWatch, Auto Scaling, CLI, Trusted advisor, Well-Architected Tool, CLoudTrail
 
 CloudFront uses edge locations to ensure low-latency 
+closer region- decrease latency
+Aws regions-hosts two or more availability zones, located in seperate geographic area
+availability zones- within a region connected through low-latency links, made up of more than one data centres
+1 data centre cannot be used for more than one availability zone
+provisioning  compute resources across multiple availability zones
+edge locations not located in same general area as regions
