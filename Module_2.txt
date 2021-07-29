@@ -1,3 +1,4 @@
+Module 2 - Cloud Economics and Billing
 -Fundamentals of Pricing-Pricing Model(drivers-compute, storage, outbound data transfer)-pay for what are used services-can be custom- free tier only certain sevices (no charge-inbound data transfer, data transfer bw services within the same AWS region)
 
 -Total Cost of Ownership (TCO) - service, storage, network, IT labor costs
