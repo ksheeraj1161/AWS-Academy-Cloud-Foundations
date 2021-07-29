@@ -15,3 +15,7 @@
 
 -Securing Data- transport layer security(TLS), HTTPS
  S3- S3 block public access, Bucket policies, Access control lists(ACLs), AWS trusted advisor
+
+-Ensure Compliance- AWS Config-- assess audit evaluate configurations of AWS resources, AWS Artifact
+
+AWS IAM securing account-manages access to AWS resources and define fine-grinded access rights 
