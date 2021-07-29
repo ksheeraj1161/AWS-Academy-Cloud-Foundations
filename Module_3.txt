@@ -1,3 +1,4 @@
+Module 3 - AWS Global Infrastructure Overview
 -AWS Global Infrastructure -> Region, Availability Zone, Edge locations
  Data centres, Original Device Manucfacturers (ODM)
  Amazon CloudFront, Amazon Route 51-DNS, Aws shield, Aws web application firewall 
