@@ -1,0 +1,22 @@
+Module 4 - AWS Cloud Security
+-AWS Shared Responsibility Model (maintaining physical hardware)- customer(in the cloud)(ex:Encryption of data and data in transit, security group configurations), AWS(of the cloud) comprise of all mentioned in services(software), global infastruture(hardware)
+
+-AWS IAM(identity and access management)- access= programmatic access, AWS management console access, Multi factor authentication(MFA)
+ IAM policies- identity based, resourse based
+ dynamodb table- table name, s3 bucket- bucket name
+ implicit deny
+ IAM groups, roles, policies, users (create) Built in policies also available
+
+-Securing New AWS account- 1.change from root user-change AWS support plan, delete access keys of root account 2.MFA(additional layer of login security) 3.AWS cloudtrail(logs) 4.billing report
+
+-Securing multiple accounts- using AWS organizations 1.Organizational units 2.IAM 3.Service control policies
+ AWS KMS(key management service) - create and manage encryption keys and control the use of encryption
+ Amazon Cognito (SAML-security assertion markup languages)
+ AWS Shield
+
+-Securing Data- transport layer security(TLS), HTTPS
+ S3- S3 block public access, Bucket policies, Access control lists(ACLs), AWS trusted advisor
+
+-Ensure Compliance- AWS Config-- assess audit evaluate configurations of AWS resources, AWS Artifact
+
+AWS IAM securing account-manages access to AWS resources and define fine-grinded access rights 
