@@ -7,3 +7,8 @@
  IAM groups, roles, policies, users (create) Built in policies also available
 
 -Securing New AWS account- 1.change from root user-change AWS support plan, delete access keys of root account 2.MFA(additional layer of login security) 3.AWS cloudtrail(logs) 4.billing report
+
+-Securing multiple accounts- using AWS organizations 1.Organizational units 2.IAM 3.Service control policies
+ AWS KMS(key management service) - create and manage encryption keys and control the use of encryption
+ Amazon Cognito (SAML-security assertion markup languages)
+ AWS Shield
