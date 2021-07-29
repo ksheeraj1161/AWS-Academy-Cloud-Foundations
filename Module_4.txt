@@ -12,3 +12,6 @@
  AWS KMS(key management service) - create and manage encryption keys and control the use of encryption
  Amazon Cognito (SAML-security assertion markup languages)
  AWS Shield
+
+-Securing Data- transport layer security(TLS), HTTPS
+ S3- S3 block public access, Bucket policies, Access control lists(ACLs), AWS trusted advisor
