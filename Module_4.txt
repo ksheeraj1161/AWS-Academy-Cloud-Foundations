@@ -1,3 +1,7 @@
--AWS Shared Responsibility Model - customer(in the cloud), AWS(of the cloud) comprise of all mentioned in services(software), global infastruture(hardware)
+-AWS Shared Responsibility Model (maintaining physical hardware)- customer(in the cloud)(ex:Encryption of data and data in transit, security group configurations), AWS(of the cloud) comprise of all mentioned in services(software), global infastruture(hardware)
 
--AWS IAM(identity and access management)- access= programmatic access, AWS management console access
+-AWS IAM(identity and access management)- access= programmatic access, AWS management console access, Multi factor authentication(MFA)
+ IAM policies- identity based, resourse based
+ dynamodb table- table name, s3 bucket- bucket name
+ implicit deny
+ IAM groups, roles, policies, users (create) Built in policies also available
