@@ -1,3 +1,4 @@
+Module 1 - Cloud Concepts Overview
 - Types of cloud computing models 
   iaaS paaS saaS (infastructure, platform, software)(control over IT resources)
 - CC deployment models (cloud, hybrid, on-premises)
