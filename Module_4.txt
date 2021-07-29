@@ -5,3 +5,5 @@
  dynamodb table- table name, s3 bucket- bucket name
  implicit deny
  IAM groups, roles, policies, users (create) Built in policies also available
+
+-Securing New AWS account- 1.change from root user-change AWS support plan, delete access keys of root account 2.MFA(additional layer of login security) 3.AWS cloudtrail(logs) 4.billing report
