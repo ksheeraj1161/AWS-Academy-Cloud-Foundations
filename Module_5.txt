@@ -5,3 +5,7 @@ Module 5 - Networking and Content Delivery
  largest ipv4 block size /16, smallest /28       
  5 ip addresses are reserved by aws- Network address, internal communication, DNS resolution, Future use, Network bradcast address 
  Elastic IPs, Elastic network interface, public private subnets, each subnet-min 1 route table, multiple subnets can be mapped to same route table
+
+-VPC Networking- Network address translation(NAT) gateway-allow resources in private subnet to access internet, VPC peering
+ endpoints- Amazon S3 Amazon, DynamoDB
+ Transit Gateway- topolgy becomes Hub
