@@ -3,8 +3,10 @@ Module 5 - Networking and Content Delivery
 
 -Amazon VPC(virtual privae cloud)- logically isolated, vms, virtual networking resources, customize network configuration, multiple layers of security
  largest ipv4 block size /16, smallest /28       
- 5 ip addresses are reserved by aws- Network address, internal communication, DNS resolution, Future use, Network bradcast address 
- Elastic IPs, Elastic network interface, public private subnets, each subnet-min 1 route table, multiple subnets can be mapped to same route table
+ new vpc-route table is created by default
+ manually create subnets and internet gateway
+ 5 ip addresses are reserved by aws(256-5=251)- Network address, internal communication, DNS resolution, Future use, Network bradcast address 
+ Elastic IPs, Elastic network interface, public private subnets(no direct access to internet), each subnet-min 1 route table, multiple subnets can be mapped to same route table
 
 -VPC Networking- Network address translation(NAT) gateway-allow resources in private subnet to access internet, VPC peering
  endpoints- Amazon S3 Amazon, DynamoDB
@@ -14,3 +16,5 @@ Module 5 - Networking and Content Delivery
  2.network access control lists(ACL)-work at subnet level, aloow and deny rules, stateless, rules are evaluated in number order before decision
 
 -Route53- register company domain and manage routing, 1.simple 2.weighted 3.latency 4.geolocation 5.geoproximity 6.failover 7.multivalue answer routing
+
+-CloudFront- content delivery, network of edge locations (ensures low latency)
