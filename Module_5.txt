@@ -12,3 +12,5 @@ Module 5 - Networking and Content Delivery
 
 -VPC security- 1.security groups-firewall to EC2 instances, allow rules only, stateful, rules evaluated before decision
  2.network access control lists(ACL)-work at subnet level, aloow and deny rules, stateless, rules are evaluated in number order before decision
+
+-Route53- register company domain and manage routing, 1.simple 2.weighted 3.latency 4.geolocation 5.geoproximity 6.failover 7.multivalue answer routing
