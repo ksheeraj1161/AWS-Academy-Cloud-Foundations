@@ -1,0 +1,7 @@
+Module 5 - Networking and Content Delivery
+-Networking-networks subnets, ipv4, CIDR, osi model
+
+-Amazon VPC(virtual privae cloud)- logically isolated, vms, virtual networking resources, customize network configuration, multiple layers of security
+ largest ipv4 block size /16, smallest /28       
+ 5 ip addresses are reserved by aws- Network address, internal communication, DNS resolution, Future use, Network bradcast address 
+ Elastic IPs, Elastic network interface, public private subnets, each subnet-min 1 route table, multiple subnets can be mapped to same route table
