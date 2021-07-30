@@ -9,3 +9,6 @@ Module 5 - Networking and Content Delivery
 -VPC Networking- Network address translation(NAT) gateway-allow resources in private subnet to access internet, VPC peering
  endpoints- Amazon S3 Amazon, DynamoDB
  Transit Gateway- topolgy becomes Hub
+
+-VPC security- 1.security groups-firewall to EC2 instances, allow rules only, stateful, rules evaluated before decision
+ 2.network access control lists(ACL)-work at subnet level, aloow and deny rules, stateless, rules are evaluated in number order before decision
