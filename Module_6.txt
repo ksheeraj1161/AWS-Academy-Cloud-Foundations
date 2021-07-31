@@ -17,3 +17,10 @@ Module 6 - Compute
 
  instance metadata
  CloudWatch-monitor instances
+ 
+-EC2 Cost Optimization
+ ondemand, 
+ spot, 
+ reserved - run large amounts of data, long-term workloads with predictable usage patterns
+ dedicated instances- will not share physical host with any othe customer instances
+ pillars- Right size, increase elasticity, optimal pricing model, optimize storage choices
