@@ -14,3 +14,6 @@ Module 6 - Compute
  7.Add tags
  8.Security groups- port number, protocol
  9.Key pair- public-aws stores, private key- you store
+
+ instance metadata
+ CloudWatch-monitor instances
