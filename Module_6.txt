@@ -1,3 +1,16 @@
 Module 6 - Compute
 
--Compute services- (EC2) (Lambda) (ECR ECS EKS Fargate) (Elastic beanstalk)
+-Compute services- (EC2) (Lambda) (ECR ECS EKS Fargate) (Elastic beanstalk) 
+
+-EC2- instances-VMs can be launched on-demand, 
+ AMI(amazon machine image) template for root volume for instances, launch permissions that control which AWS accounts can use to launch instances, Block device mapping that specifies the  volume to attach to the instance when its launched
+ 1.AMI- 1.Quick start 2.My AMIs 3.AWS marketplace 4.community AMIs    New AMIs
+ 2.Instance type- to determine RAM CPU Storage Network performance    Categories- general, compute, memory, storage, accelerated
+   Family name, generation number, size
+ 3.network settings
+ 4.attach IAM role
+ 5.User data script- bash script
+ 6.storage options- EBS, EC2 instance store
+ 7.Add tags
+ 8.Security groups- port number, protocol
+ 9.Key pair- public-aws stores, private key- you store
