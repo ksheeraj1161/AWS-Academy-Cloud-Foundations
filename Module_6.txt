@@ -24,3 +24,9 @@ Module 6 - Compute
  reserved - run large amounts of data, long-term workloads with predictable usage patterns
  dedicated instances- will not share physical host with any othe customer instances
  pillars- Right size, increase elasticity, optimal pricing model, optimize storage choices
+
+-Container based compute services- operating system virtualization, smaller than VMs
+ Docker- build test deploy aplications, to control containers
+ 1. Amazon ECS(elastic container service)- container management service
+ 2. kubernetes- Deploy and manage contanierized applications - Amazon EKS
+ Amazon ECR(elastic container registry)-manage docker registry
