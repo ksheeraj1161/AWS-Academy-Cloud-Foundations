@@ -1,0 +1,3 @@
+Module 6 - Compute
+
+-Compute services- (EC2) (Lambda) (ECR ECS EKS Fargate) (Elastic beanstalk)
