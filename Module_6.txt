@@ -33,3 +33,5 @@ Module 6 - Compute
 
 -AWS Lambda- serverless computing- run code without servers
  schedule based lambda function triggered, Event based lambda funtion
+
+-AWS Elastic Beanstalk-(PaaS) easily deploy, automatically handles, scaling, manaiging web applications - create own code - complete resource control
