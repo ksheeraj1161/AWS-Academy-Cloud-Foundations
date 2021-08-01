@@ -5,3 +5,15 @@ Module 7 - Storage
  persists when the isntance is stopped
  volume types- SSD, HDD
  cost- Volumes, IOPS, snapshots, data transfer
+ 
+-AWS S3(Simple storage service)- objects in bucket, virtually unlimited storage, suitable for flat files(docs, photos)
+ replicates all objects in multiple availability zones within same region, new bucket is associated with specific AWS region
+ bucket name must be unique worldwide across all AWS accounts
+ data stored is not viewable to public
+ Classes: standard-high availability,frequent, Bigdata
+ intelligent-Tiering - intelligently transfered unused, for data archiving
+ Standard-infrequent access- long term
+ one zone-infrequent access- less frequent but needed rapidly when needed, mostly for backups
+ Glacier- not frequently accesed, preservation, retrieve options
+ Glacier deep archive- retain data for years, backup
+ Data access- Console, CLI, SDK
