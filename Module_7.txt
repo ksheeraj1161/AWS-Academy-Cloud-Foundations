@@ -1,0 +1,7 @@
+Module 7 - Storage
+-Amazon EBS(Elastic Block Store)- create individual storage volumes - block-change piece of file instead of complete file 
+ Backup data is automayically replicated within an availability zone -snapshot,   Encryption solution, ELasticity
+ quickly accesable, requiring long-term persistence, low latency
+ persists when the isntance is stopped
+ volume types- SSD, HDD
+ cost- Volumes, IOPS, snapshots, data transfer
