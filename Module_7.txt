@@ -5,7 +5,7 @@ Module 7 - Storage
  persists when the isntance is stopped
  volume types- SSD, HDD
  cost- Volumes, IOPS, snapshots, data transfer
- 
+
 -AWS S3(Simple storage service)- objects in bucket, virtually unlimited storage, suitable for flat files(docs, photos)
  replicates all objects in multiple availability zones within same region, new bucket is associated with specific AWS region
  bucket name must be unique worldwide across all AWS accounts
@@ -17,3 +17,10 @@ Module 7 - Storage
  Glacier- not frequently accesed, preservation, retrieve options
  Glacier deep archive- retain data for years, backup
  Data access- Console, CLI, SDK
+
+-AWS S3 Glacier- server side encryption
+ vault-container for storing archives
+
+-AWS EFS- file storage, multiple VM can access instances at the same time, users can share same data
+ mount targets, tags(key value pair)
+ create EC2 & launch-create EFS file system-Create mount targets in appropriate subnets-connect EC2 to mount targets-verify resources, protection
