@@ -16,3 +16,6 @@ Assume everything will fail
 -Reliability - ability to provide functionality, MTBF mean time between failures= total time service/ no of failures, MTTF MTTR
  High Availability- normal operation time/ total time, downtime is minimized, no need of human intervention
   availability tiers, factors- fault tolerance, scalability, recoverability
+
+-AWS Trusted Advisor - used to design and review architecture, real time guidance
+ categories- cost optimization, performance, security, fault tolerance, service limits
