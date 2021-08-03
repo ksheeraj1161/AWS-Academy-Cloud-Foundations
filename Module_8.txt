@@ -1,3 +1,4 @@
+
 Module 8 - Databases
 Choosing database type- Data size, Data availability, Query frequency, Highly available
 -Amazon RDS- manage application optimization
@@ -14,3 +15,7 @@ Choosing database type- Data size, Data availability, Query frequency, Highly av
  query operation- query table using partition key and sort key, query secondary indexes, efficiently retrieve items from table and secondary index
  tables, items, attributes-core concepts
  primary keys- simple-partition, composite-partition & sort key
+ 
+-Amazon Redshift-analyse data, SQL queries, business intelligence(BI) tools
+ Dense compute nodes, leader nodes
+ Enterprise data warehouse- respond faster to needs, Big data-focus more and less on db management, SaaS-scale the capacity
