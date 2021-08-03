@@ -6,3 +6,11 @@ Choosing database type- Data size, Data availability, Query frequency, Highly av
  Db engines- Amazon aurora, PostgreSQL, MySQL, MariaDB, Oracle, Microsoft SQL server
  complex transacations or queries, med-high query, high durability
  Billing- clock hour billing, database characteristics, DB purchase type, number of DB instances
+
+-Amazon DynamoDB- fast, flexible, scalable database schema NoSQL(non relational) database service
+ scaling to hundreds of thousands of requests with key/value access to user profile and session
+ diff attributes(fundamental data element) in same table, low latency queries, virtually unlimited storage, scalable read/write throughput
+ scan operation to find any item other than primaty key
+ query operation- query table using partition key and sort key, query secondary indexes, efficiently retrieve items from table and secondary index
+ tables, items, attributes-core concepts
+ primary keys- simple-partition, composite-partition & sort key
