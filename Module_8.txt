@@ -1,4 +1,3 @@
-
 Module 8 - Databases
 Choosing database type- Data size, Data availability, Query frequency, Highly available
 -Amazon RDS- manage application optimization
@@ -19,3 +18,6 @@ Choosing database type- Data size, Data availability, Query frequency, Highly av
 -Amazon Redshift-analyse data, SQL queries, business intelligence(BI) tools
  Dense compute nodes, leader nodes
  Enterprise data warehouse- respond faster to needs, Big data-focus more and less on db management, SaaS-scale the capacity
+
+-Amazon Aurora-enterprise relational database, MySQL PostgreSQL , (.NET)
+ high availability, resilent database- crash recovery automated backups
