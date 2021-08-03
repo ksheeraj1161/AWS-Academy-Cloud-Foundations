@@ -2,3 +2,17 @@ Module 9 - Cloud Architecture
 Assume everything will fail
 -AWS Well Architected Framework - guide for designing secure, high performing, resilient, efficient
  5 Pillars-questions, Design Principles
+ 1.Operational Excellence- run monitor systems, 6 design principles- operations as code, annotate documentation, frequent small reversible changes, refine operations procedures, anticipate failure, learn from all operational events and failures
+  Q: prepare, operate, evolve
+ 2.Security- protect information, 7 design principles- strong identity foundation, enable traceability, security at all layers, automate best pratices, protect data in transit and rest, keep people away, prepare for events
+  Q: identity and access management, detective controls, infastructure protection, data protection, incident response
+ 3.Reliability- prevent and quickly recover from failure and mitigate disruption, 5 design principles- test recovery procedures, automatically recover, scale horizontally, stop guessing capacity, manage change in automation
+  Q: Foundations, change management, failure management
+ 4.Performance Efficiency- use resources sparingly, 5 design principles- democratize advanced technologies, go global in mins, use serverless architectures, experiment more often, mechanical sympathy
+  Q: Selection, Review, monitoring, tradeoffs
+ 5.Cost Optimization- eliminate unneeded expense-lowest prices, 5 design principles- adopt consumption model, measure overall efficiency, no money on data centre, analyse attribute expenditure, use managed application level services
+  Q: Expenditure awareness, cost-effective resources, matching supply and demand, optimizing over time
+ 
+-Reliability - ability to provide functionality, MTBF mean time between failures= total time service/ no of failures, MTTF MTTR
+ High Availability- normal operation time/ total time, downtime is minimized, no need of human intervention
+  availability tiers, factors- fault tolerance, scalability, recoverability
