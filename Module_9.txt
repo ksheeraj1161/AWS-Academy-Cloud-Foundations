@@ -1,0 +1,4 @@
+Module 9 - Cloud Architecture
+Assume everything will fail
+-AWS Well Architected Framework - guide for designing secure, high performing, resilient, efficient
+ 5 Pillars-questions, Design Principles
