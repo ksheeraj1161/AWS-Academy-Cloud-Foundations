@@ -1,1 +1,8 @@
 Module 8 - Databases
+Choosing database type- Data size, Data availability, Query frequency, Highly available
+-Amazon RDS- manage application optimization
+ database instance
+ automatically patches backups database software and backup
+ Db engines- Amazon aurora, PostgreSQL, MySQL, MariaDB, Oracle, Microsoft SQL server
+ complex transacations or queries, med-high query, high durability
+ Billing- clock hour billing, database characteristics, DB purchase type, number of DB instances
