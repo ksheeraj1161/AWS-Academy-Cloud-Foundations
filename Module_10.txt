@@ -9,3 +9,14 @@ Module 10 - Auto Scaling and Monitoring
 
 -Amazon CloudWatch- Monitors, collects tracks, alarms(static threshold, anamoly detection, metric math expression), events 
  Amazon (SNS) simple notification service to send alerts for alarms
+
+-Amazon CloudTrail- log of access to all services, governance, compliance, operational auditing, risk auditing
+
+-Amazon EC2 Auto Scaling- maintain application availability, add remove EC2 instances
+ manual, scheduled, dynamic(on demand), predictive
+ auto scaling group- minimum and maximum number of instances, desired capacity
+ responds to changing conditions by adding or terminating instances, launch instances from a specified AMI, enforces min mnumber of running Amazon EC2 instances
+ for creation- AMI, instance type, EBS volumes
+
+-AWS Auto Scaling(for other AWS services)- seperate service monitors applications, automatically adjust capacity
+ steady, predictable performance at lowest cost
