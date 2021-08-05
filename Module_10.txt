@@ -1,1 +1,11 @@
 Module 10 - Auto Scaling and Monitoring
+
+-Elastic Load Balancing- distributes incoming network traffic in single or multiple availability zones
+ configure to specify one or more listeners
+ types- application(HTTPS HTTPS), network(TCP UDP), classic(HTTPS HTTPS TCP SSL)
+ high available fault tolerant, containerized applications, elasticity scalability, VPC, hybrid environments, invoke lambda functions
+ unhealthy target- stops routung traffic to that target and sends it to healthy target, resumes routing traffic to that target when it detecs that target is healthy again
+ Monitoring this- CloudWatch metrics, Access logs, CloudTrail logs
+
+-Amazon CloudWatch- Monitors, collects tracks, alarms(static threshold, anamoly detection, metric math expression), events 
+ Amazon (SNS) simple notification service to send alerts for alarms
